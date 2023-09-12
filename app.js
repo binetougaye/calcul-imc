@@ -1,6 +1,6 @@
 let height = prompt("Veuilez entre votre taille");
 let weight = prompt("Veuillez entrer votre poids");
-let number = print(height) + print(weight);
+// let number = print(height) + print(weight);
 let imc = weight / (height * height);
 let submit = document.querySelector("#submit");
 console.log(submit);
